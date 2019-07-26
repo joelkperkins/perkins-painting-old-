@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  emailSent = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onToggleEmail() {
+    this.emailSent = this.emailSent ? false : true;
   }
 
 }

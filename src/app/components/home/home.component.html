@@ -1,3 +1,70 @@
-<p>
-  home works!
-</p>
+<div id="home" class="home-container">
+    <div class="mission-container">
+        <img class="body-photo" src="../../../assets/images/san-diego-79567_960_720.jpg">
+        <div class="mission">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id urna erat. Mauris finibus varius mauris, quis efficitur turpis faucibus quis. Proin ac nunc ornare.</div>
+    </div>
+    <!-- services -->
+    <div>
+        <h2 id="services" class="com-services">commercial services: </h2>
+    </div>
+    <div class="content-container">
+        <img class="content-photo" src="../../../assets/images/4880098443001_5581420638001_image-1505865777599.jpg">
+        <div class="text-box-white-fade">Interior / Exterior Production Painting for Master Planned Communities</div>
+    </div>
+    <div class="content-container">
+        <img class="content-photo-2" src="../../../assets/images/perkins-4.png">
+        <div class="text-box-white-fade">Single Family / Multi-Family / Apartments / Assisted Living / Resorts / Hotels</div>
+    </div>
+    <div class="content-container">
+        <img class="content-photo-2" src="../../../assets/images/perkins-5.png">
+        <div class="text-box-white-fade">Industrial Coating application for exposed steel members / Fire Resistant Intumescent Coatings</div>
+    </div>
+    <div class="content-container">
+        <img class="content-photo" src="../../../assets/images/perkins-2.png">
+        <div class="text-box-white-fade">Fine Stain and Decorative Finishes for Model Homes and/or Custom Interiors</div>
+    </div>
+    <!-- testimonies -->
+    <div id="testimonies">
+        <h2 class="about-us">testimonials: </h2>
+    </div>
+    <div class="testimonies">
+        <div class="testimony">
+            <i class="user-icon fa fa-user-circle-o"></i>
+            <div class="test-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+        <div class="testimony">
+            <i class="user-icon fa fa-user-circle-o"></i>
+            <div class="test-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+        <div class="testimony">
+            <i class="user-icon fa fa-user-circle-o"></i>
+            <div class="test-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+        <div class="testimony">
+            <i class="user-icon fa fa-user-circle-o"></i>
+            <div class="test-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        </div>
+
+    </div>
+    
+    <!-- about us -->
+    <div>
+        <h2 id="about" class="about-us">about us: </h2>
+    </div>
+    <div class="content-container">
+        <img class="content-photo" src="../../../assets/images/perkins-building.jpg">
+        <div class="text-box-white-fade">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    </div>
+    <!-- contact us -->
+    <div>
+        <h2 id="contact" class="about-us">contact us:</h2>
+    </div>
+    <div class="content-container">
+        <a class="phone" href="tel:+18663301329"><button><i class="phone-icon fa fa-phone"></i></button></a>
+        <a *ngIf="!emailSent" class="email" href="mailto:jlperkins@wmpco.com"><button (click)="onToggleEmail()" href="mailto:jlperkins@wmpco.com"><i class="email-icon fa fa-envelope"></i></button></a>
+        <button *ngIf="emailSent" class="email-sent" disabled (click)="onToggleEmail()"><h2 class="about-us">Thanks for reaching Out! We will be in touch soon!</h2></button>
+        
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13428.105989568103!2d-117.1263604!3d32.7119236!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbbe5b0ec56d3dc01!2sPerkins+Custom+Coatings!5e0!3m2!1sen!2sus!4v1564114352940!5m2!1sen!2sus" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    
+</div>

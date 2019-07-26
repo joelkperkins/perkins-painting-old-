@@ -1,0 +1,14 @@
+<div class="sticky">
+  <div class="nav-bar">
+      <button class="menu-button" (click)="onToggleNav()">
+          <i class="menu-icon fa fa-bars fa-3x"></i>
+        </button>
+  </div>
+  <nav *ngIf="toggleNav" class="nav">
+      <button class="nav-button" (click)="navigateTo('home')">home</button>
+      <button class="nav-button" (click)="navigateTo('services')">services</button>
+      <button class="nav-button" (click)="navigateTo('testimonies')">testimonials</button>
+      <button class="nav-button" (click)="navigateTo('about')">about</button>
+      <button class="nav-button" (click)="navigateTo('contact')">contact</button>
+  </nav>
+</div>

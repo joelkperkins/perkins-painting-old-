@@ -5,17 +5,23 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrComponent } from './components/err/err.component';
 import { AppRoutingModule } from './app-routing.module';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+// import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    ErrComponent
+    ErrComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'YOUR_KEY'
+    // })
   ],
   providers: [],
   bootstrap: [AppComponent]
